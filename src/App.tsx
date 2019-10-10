@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.less';
 
+// todo modal组件
+// todo context存到localStorage实现状态持续化
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -21,6 +23,6 @@ const App: React.FC = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
